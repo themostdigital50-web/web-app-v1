@@ -1,0 +1,14 @@
+node_modules/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+db.env
+db.env.*
+!db.env.example
+
+# Generated files
+coverage/
+*.log
+npm-debug.log*
